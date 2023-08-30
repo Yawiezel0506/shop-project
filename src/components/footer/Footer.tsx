@@ -1,7 +1,16 @@
-const Footer =()=> {
-    return (
-        <div>Footer</div>
-    )
-}
+import { styled } from "styled-components";
 
-export default Footer
+const Footer = () => {
+  return (
+    <Container>
+      Footer
+    </Container>
+  );
+};
+
+export default Footer;
+
+const Container = styled.div`
+  background: grey;
+  height: 8vh;
+`;
